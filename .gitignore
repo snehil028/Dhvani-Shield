@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+env/
+.venv/
+*.egg-info/
+
+# Large data / features / audio - do NOT commit
+ASVspoof_outputs/features/
+ASVspoof_outputs/flac/
+ASVspoof_outputs/wavs/
+*.wav
+*.flac
+*.mp3
+*.zip
+
+# Temp / OS
+.DS_Store
+Thumbs.db
+reports/
+temp_feats/
+*.sqlite3
+biometrics_audit.db
+
